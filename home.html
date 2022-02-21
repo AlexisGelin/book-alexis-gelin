@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Book Alexis Gelin</title>
+      <link rel="stylesheet" href="home.css" />
+      <script type="text/javascript" src="home.js"></script>
+   </head>
+   <body>
+      <nav>
+         <div>
+            <h3 onclick="showPro();hideStudy();" id="proBtn">Professionnel</h3>
+            <h3 onclick="showScolaire();hidePro();" id="scoBtn">Scolaire</h3>
+         </div>
+         <div>
+            <h1>Alexis Gelin</h1>
+         </div>
+         <div>
+            <h3 id="contact">Contact</h3>
+         </div>
+      </nav>
+      <section class="main">
+         <div class="inner-main">
+            <!-- Pro -->
+            <div class="cards" id="pro" style="display: grid">
+               <div class="card starship">
+                  <div class="forBlur">
+                     <h2>Starship Galaxy</h2>
+                     <div class="showOnHover">
+                        <h4>Unity / C#</h4>
+                        <h3>Groupe de 9</h3>
+                        <p>
+                           Le but est de créer un jeu arcade du type Shoot'em up,
+                           amusant, coloré, avec différents ennemis / boss.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="card bsi">
+                  <div class="forBlur">
+                     <h2>BSI Ynov</h2>
+                     <div class="showOnHover">
+                        <h4>Fortigate / Juniper</h4>
+                        <h3>Groupe de 8</h3>
+                        <p>
+                           Administrer un réseau / la maintenir et ajouter de nouvelles
+                           règles afin d'améliorer le réseaux d'Ynov.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="card casino">
+                  <div class="forBlur">
+                     <h2>Casino Supermarchés Saint-Galmier</h2>
+                     <div class="showOnHover">
+                        <h4>Gestion de groupe / Responsabilité</h4>
+                        <h3>Groupe de 4</h3>
+                        <p>
+                           Étant le plus ancien j'effectue l'organisation des étudiants
+                           pour la matinée, tout en assurant une montée en compétences
+                           sur leur poste.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="card mcdo">
+                  <div class="forBlur">
+                     <h2>McDonald's La Fouillouse</h2>
+                     <div class="showOnHover">
+                        <h4>Adaptabilité / Autonomie</h4>
+                        <p>
+                           À l'avant du magasin, boissons / glaces / salades / service a
+                           table pas le temps de se reposer sur ces lauriers ;)
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Study -->
+            <div class="cards" id="study" style="display: none">
+               <div class="card aH">
+                  <div class="forBlur">
+                     <h2>07a-H</h2>
+                     <div class="showOnHover">
+                        <h4>C# / Unity / SQL / AWS</h4>
+                        <p>
+                           Créer un jeu multijoueur sur Unity, avec synchronisation des
+                           données, affichage du temps de jeux, résultats en fin de
+                           partie
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <a href="https://forum-robots.herokuapp.com/">
+                  <div class="card robot">
+                     <div class="forBlur">
+                        <h2>Robot's</h2>
+                        <div class="showOnHover">
+                           <h4>HTML / CSS / JS / SQL / GOLang</h4>
+                           <h3>Groupe de 5</h3>
+                           <p>
+                              Créer un forum avec création de post, filtre, création de
+                              compte, barre de recherche, espace admin etc...
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <a href="https://groupie-tracker-groupieyoal.herokuapp.com/artists">
+                  <div class="card groupie">
+                     <div class="forBlur">
+                        <h2>Groupie trackers</h2>
+                        <div class="showOnHover">
+                           <h4>HTML / CSS / GOLang</h4>
+                           <h3>Groupe de 2</h3>
+                           <p>
+                              Créer un site web lié à une base de données et en afficher
+                              les valeurs, plus localisation / affichage google maps.
+                              etc...
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <div class="card ascii">
+                  <div class="forBlur">
+                     <h2>ASCII Art-web</h2>
+                     <div class="showOnHover">
+                        <h4>HTML / CSS / GOLang</h4>
+                        <h3>Groupe de 2</h3>
+                        <p>
+                           Créer un site web qui transforme votre texte en un format
+                           chosis, vous pouvez le télécharger et l'envoyer à vos amis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div id="myModal" class="modal">
+         <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact</h2>
+            <h4>
+               En seconde je suis passionnée par les petits modules d’informatiques qui m’ont fait découvrir un univers, ou mon imagination et ma créativité ne pouvaient s’essouffler j’ai donc poursuivi dans ce chemin-là par un BAC STI2D SIN, puis par une école d’informatique en bac+5.<br><br>   
+               Depuis le lycée j’effectue un job étudiant, premièrement en tant qu’équipier polyvalent chez McDonald's pendant 5 mois, puis aujourd’hui tous les rôles étudiants ( caissier, traiteur, boulanger, fruits et légumes) chez Casino jusqu’à maintenant.<br><br>
+               Ces dernières années j’ai pu créer des sites web lient à des base de données, créée des jeux en python / C++ / C# , en Java faire des applications console, des liens avec des bases de données, du SQL, PHP etc.<br><br>
+               En recherche de stage / alternance pour les vacances de juillet/aout de 6 semaines puis d'une alternance pour ma 3ème année de cursus chez Ynov Campus Lyon dans le domaine du développement web / mobile, C.# / Unity / .NET / Java, etc.
+            </h4>
+            <br />
+            <h3>
+               <span>E-mail</span> :
+               <a href="mailto:gelin752002@gmail.com">gelin752002@gmail.com</a>
+            </h3>
+            <br />
+            <h3>
+               <span>LinkedIn</span> :
+               <a href="https://www.linkedin.com/in/gelin-alexis/"
+                  >https://www.linkedin.com/in/gelin-alexis/</a
+                  >
+            </h3>
+            <br />
+            <h3>
+               <span>Téléphone</span> : <a href="tel:0781425765">07 81 42 57 65</a>
+            </h3>
+            <br />
+            <h3><span>Localisation</span> : Lyon 69007, Veauche 42340</h3>
+         </div>
+      </div>
+      <footer>
+         <div class="inner-footer">
+            <h4>
+               ✨&nbsp;&nbsp; Merci &nbsp;&nbsp;✨&nbsp;d'avoir pris le temps, d'être venue voir mes projets,<br> n'hésitez pas à aller dans l'onglet contact si vous voulez collaborer avec moi ❤️.
+            </h4>
+         </div>
+      </footer>
+      <script>
+         var modal = document.getElementById("myModal");
+         var btn = document.getElementById("contact");
+         var span = document.getElementsByClassName("close")[0];
+         btn.onclick = function () {
+           modal.style.display = "block";
+         };
+         span.onclick = function () {
+           modal.style.display = "none";
+         };
+         window.onclick = function (event) {
+           if (event.target == modal) {
+             modal.style.display = "none";
+           }
+         };
+      </script>
+   </body>
+</html>
