@@ -29,3 +29,29 @@ function hideStudy() {
     x.style.display = "none";
   }
 }
+
+function findId(key) {
+  return document.getElementById(key);
+}
+
+let _modalData = [
+  ["modalContact", "id01"],
+  ["modalStarship", "id02"],
+  ["modalBsi", "id03"],
+  ["modalCasino", "id04"],
+  ["modalMcdo", "id05"],
+  ["modalAh", "id06"],
+  ["modalRobot", "id07"],
+  ["modalGroupie", "id08"],
+  ["modalAscii", "id09"]
+]
+
+window.onclick = function(event) {
+  _modalData.forEach((_data) => {
+      _data[0] = findId(_data[1]);
+      if (event.target == _data[0]) {
+          _data[0].style.display = "none";
+      };
+  });
+};
+

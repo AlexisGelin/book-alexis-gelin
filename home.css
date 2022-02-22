@@ -138,6 +138,7 @@ nav>*>* {
 
 .card:hover {
 	backdrop-filter: blur(2px);
+	cursor: pointer;
 }
 
 .card h2 {
@@ -196,7 +197,7 @@ nav>*>* {
 }
 
 .starship {
-	background-image: url("./img/starship.gif");
+	background-image: url("./img/StarShip/starship.gif");
 	background-size: cover;
 }
 
@@ -210,7 +211,7 @@ nav>*>* {
 }
 
 .bsi {
-	background-image: url("./img/bsi.gif");
+	background-image: url("./img/bsi/bsi.gif");
 	background-size: cover;
 }
 
@@ -224,7 +225,7 @@ nav>*>* {
 }
 
 .casino {
-	background-image: url("./img/casino.gif");
+	background-image: url("./img/casino/casino.gif");
 	background-size: cover;
 }
 
@@ -238,7 +239,7 @@ nav>*>* {
 }
 
 .mcdo {
-	background-image: url("./img/macdo.gif");
+	background-image: url("./img/mcdo/macdo.gif");
 	background-size: cover;
 	color: var(--clr-300);
 }
@@ -274,7 +275,7 @@ nav>*>* {
 }
 
 .robot {
-	background-image: url("./img/robot.png");
+	background-image: url("./img/robots/robot.png");
 	background-size: cover;
 }
 
@@ -288,7 +289,7 @@ nav>*>* {
 }
 
 .groupie {
-	background-image: url("./img/groupie.png");
+	background-image: url("./img/groupie/groupie.png");
 	background-size: cover;
 }
 
@@ -302,19 +303,18 @@ nav>*>* {
 }
 
 .ascii {
-	background-image: url("./img/ascii.png");
+	background-image: url("./img/ascii/ascii.png");
 	background-size: cover;
 	color: var(--clr-300);
 }
-
-
-/* Contact */
 
 #contact {
 	cursor: pointer;
 }
 
-.modal {
+/* Contact */
+
+.modalContact {
 	display: none;
 	position: fixed;
 	z-index: 1;
@@ -328,9 +328,173 @@ nav>*>* {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal h3 span {
+.modalContact h3 span {
 	font-family: var(--ff-bold);
 }
+
+/* StarShip */
+
+.modalStarship {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalStarship h3 span {
+	font-family: var(--ff-bold);
+}
+
+/* bsi */
+
+.modalBsi {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalBsi h3 span {
+	font-family: var(--ff-bold);
+}
+
+
+/* Casino */
+
+.modalCasino {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalCasino h3 span {
+	font-family: var(--ff-bold);
+}
+
+/* Mcdo */
+
+.modalMcdo {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalMcdo h3 span {
+	font-family: var(--ff-bold);
+}
+
+/* Ah */
+
+.modalAh {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalAh h3 span {
+	font-family: var(--ff-bold);
+}
+
+/* Robot */
+
+.modalRobot {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalRobot h3 span {
+	font-family: var(--ff-bold);
+}
+
+
+/* Ascii */
+
+.modalAscii {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalAscii h3 span {
+	font-family: var(--ff-bold);
+}
+
+/* Groupie */
+
+.modalGroupie {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalGroupie h3 span {
+	font-family: var(--ff-bold);
+}
+
+
 
 .modal-content {
 	background-color: #fefefe;
@@ -338,6 +502,16 @@ nav>*>* {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 80%;
+}
+
+.modal-content img {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.modal-content .cards {
+	grid-template-columns: repeat(1,1fr);
 }
 
 .close {
