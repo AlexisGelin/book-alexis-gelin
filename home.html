@@ -3,26 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>Book Alexis Gelin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="home.css" />
     <script type="text/javascript" src="home.js"></script>
   </head>
   <body>
     <nav>
-      <div>
-        <h3 onclick="showPro();hideStudy();" id="proBtn">Professionnel</h3>
-        <h3 onclick="showScolaire();hidePro();" id="scoBtn">Scolaire</h3>
-      </div>
-      <div>
-        <h1>Alexis Gelin</h1>
-      </div>
-      <div>
-        <h3
-          id="contact"
-          onclick="document.getElementById('id01').style.display='block'"
-        >
-          Contact
-        </h3>
+      <div class="inner-nav">
+        <div>
+          <h3 onclick="showPro();hideStudy();" id="proBtn">Professionnel</h3>
+          <h3 onclick="showScolaire();hidePro();" id="scoBtn">Scolaire</h3>
+        </div>
+        <div>
+          <h1>Alexis Gelin</h1>
+        </div>
+        <div>
+          <h3
+            id="contact"
+            onclick="document.getElementById('id01').style.display='block'"
+          >
+            Contact
+          </h3>
+        </div>
       </div>
     </nav>
     <section class="main">
@@ -129,7 +131,6 @@
               </div>
             </div>
           </div>
-
           <div
             class="card groupie"
             onclick="document.getElementById('id08').style.display='block'"

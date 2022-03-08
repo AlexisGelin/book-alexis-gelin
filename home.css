@@ -92,29 +92,41 @@ body a {
 /* Navbar */
 
 nav {
-	display: flex;
-	color: var(--clr-1000);
 	background-color: var(--clr-300);
+	color: var(--clr-1000);
+}
+
+.inner-nav{
 	max-width: var(--max-w);
+	display: flex;
+	margin-inline: auto;
 }
 
 nav h3 {
 	padding-block: 20px;
 	font-size: var(--fs-200);
+	border-bottom: solid var(--clr-300);
+}	
+
+nav h3:hover {
+	border-bottom: solid var(--clr-1000);
 }
+
 
 nav h1 {
 	font-size: var(--fs-500);
+
 }
 
-nav>* {
+nav>div>* {
 	flex: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
-nav>*>* {
+nav>div>*>* {
 	margin-inline: 15px;
 }
 
@@ -186,6 +198,9 @@ nav>*>* {
 
 
 /* Pro */
+
+
+
 
 #proBtn {
 	border-bottom: solid #070b11;

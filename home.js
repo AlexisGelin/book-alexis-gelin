@@ -17,7 +17,7 @@ function showPro() {
 function hidePro() {
   var x = document.getElementById("pro");
   if (x.style.display === "grid") {
-    document.getElementById("proBtn").style.borderBottom = "none";
+    document.getElementById("proBtn").style.borderBottom = "solid #f1f1ef";
     x.style.display = "none";
   }
 }
@@ -25,7 +25,7 @@ function hidePro() {
 function hideStudy() {
   var x = document.getElementById("study");
   if (x.style.display === "grid") {
-    document.getElementById("scoBtn").style.borderBottom = "none";
+    document.getElementById("scoBtn").style.borderBottom = "solid #f1f1ef";
     x.style.display = "none";
   }
 }
