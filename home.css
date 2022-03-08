@@ -9,7 +9,7 @@
 	--clr-1000: #070b11;
 	--ff-reg: "dm-sans";
 	--ff-bold: "dm-bold";
-	--max-w: 1920px;
+	--max-w: 2560px;
 	--min-w: 480px;
 }
 
@@ -30,9 +30,12 @@
 	src: url("./font/DMSans-Bold.ttf");
 }
 
-body {
-	height: 100vh;
+
+body,html {
 	background-color: var(--clr-200);
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 body a {
@@ -92,6 +95,7 @@ nav {
 	display: flex;
 	color: var(--clr-1000);
 	background-color: var(--clr-300);
+	max-width: var(--max-w);
 }
 
 nav h3 {
@@ -119,6 +123,7 @@ nav>*>* {
 
 .main {
 	padding: 1rem;
+	flex: 1;
 }
 
 .inner-main {
@@ -533,7 +538,6 @@ nav>*>* {
 
 footer {
 	background-color: var(--clr-300);
-	position: absolute;
 	bottom: 0;
 	display: flex;
 	color: var(--clr-1000);
