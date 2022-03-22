@@ -1,389 +1,300 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Book Alexis Gelin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="home.css" />
     <script type="text/javascript" src="home.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav>
-      <div class="inner-nav">
-        <div>
-          <h3 onclick="showPro();hideStudy();" id="proBtn">Professionnel</h3>
-          <h3 onclick="showScolaire();hidePro();" id="scoBtn">Scolaire</h3>
+        <div class="inner-nav">
+            <div>
+                <h3 onclick="showPro();hideStudy();" id="proBtn">Professionnel</h3>
+                <h3 onclick="showScolaire();hidePro();" id="scoBtn">Scolaire</h3>
+            </div>
+            <div>
+                <h1>Alexis Gelin</h1>
+            </div>
+            <div>
+                <h3 id="contact" onclick="document.getElementById('id01').style.display='block'">
+                    Contact
+                </h3>
+            </div>
         </div>
-        <div>
-          <h1>Alexis Gelin</h1>
-        </div>
-        <div>
-          <h3
-            id="contact"
-            onclick="document.getElementById('id01').style.display='block'"
-          >
-            Contact
-          </h3>
-        </div>
-      </div>
     </nav>
     <section class="main">
-      <div class="inner-main">
-        <!-- Pro -->
-        <div class="cards" id="pro" style="display: grid">
-          <div
-            class="card starship"
-            onclick="document.getElementById('id02').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>Starship Galaxy</h2>
-              <div class="showOnHover">
-                <h4>Unity / C#</h4>
-                <h3>Groupe de 9</h3>
-                <p>
-                  Le but est de créer un jeu arcade du type Shoot'em up,
-                  amusant, coloré, avec différents ennemis / boss.
-                </p>
-              </div>
+        <div class="inner-main">
+            <!-- Pro -->
+            <div class="cards" id="pro" style="display: grid">
+                <div class="card starship" onclick="document.getElementById('id02').style.display='block'">
+                    <div class="forBlur">
+                        <h2>Starship Galaxy</h2>
+                        <div class="showOnHover">
+                            <h4>Unity / C#</h4>
+                            <h3>Groupe de 9</h3>
+                            <p>
+                                Le but est de créer un jeu arcade du type Shoot'em up, amusant, coloré, avec différents ennemis / boss.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bsi" onclick="document.getElementById('id03').style.display='block'">
+                    <div class="forBlur">
+                        <h2>BSI Ynov</h2>
+                        <div class="showOnHover">
+                            <h4>Fortigate / Juniper</h4>
+                            <h3>Groupe de 8</h3>
+                            <p>
+                                Administrer un réseau / la maintenir et ajouter de nouvelles règles afin d'améliorer le réseaux d'Ynov.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card casino" onclick="document.getElementById('id04').style.display='block'">
+                    <div class="forBlur">
+                        <h2>Casino Supermarchés Saint-Galmier</h2>
+                        <div class="showOnHover">
+                            <h4>Gestion de groupe / Responsabilité</h4>
+                            <h3>Groupe de 4</h3>
+                            <p>
+                                Étant le plus ancien j'effectue l'organisation des étudiants pour la matinée, tout en assurant une montée en compétences sur leur poste.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mcdo" onclick="document.getElementById('id05').style.display='block'">
+                    <div class="forBlur">
+                        <h2>McDonald's La Fouillouse</h2>
+                        <div class="showOnHover">
+                            <h4>Adaptabilité / Autonomie</h4>
+                            <p>
+                                À l'avant du magasin, boissons / glaces / salades / service a table pas le temps de se reposer sur ces lauriers ;)
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div
-            class="card bsi"
-            onclick="document.getElementById('id03').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>BSI Ynov</h2>
-              <div class="showOnHover">
-                <h4>Fortigate / Juniper</h4>
-                <h3>Groupe de 8</h3>
-                <p>
-                  Administrer un réseau / la maintenir et ajouter de nouvelles
-                  règles afin d'améliorer le réseaux d'Ynov.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card casino"
-            onclick="document.getElementById('id04').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>Casino Supermarchés Saint-Galmier</h2>
-              <div class="showOnHover">
-                <h4>Gestion de groupe / Responsabilité</h4>
-                <h3>Groupe de 4</h3>
-                <p>
-                  Étant le plus ancien j'effectue l'organisation des étudiants
-                  pour la matinée, tout en assurant une montée en compétences
-                  sur leur poste.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card mcdo"
-            onclick="document.getElementById('id05').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>McDonald's La Fouillouse</h2>
-              <div class="showOnHover">
-                <h4>Adaptabilité / Autonomie</h4>
-                <p>
-                  À l'avant du magasin, boissons / glaces / salades / service a
-                  table pas le temps de se reposer sur ces lauriers ;)
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Study -->
-        <div class="cards" id="study" style="display: none">
-          <div
-            class="card aH"
-            onclick="document.getElementById('id06').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>07a-H</h2>
-              <div class="showOnHover">
-                <h4>C# / Unity / SQL / AWS</h4>
-                <p>
-                  Créer un jeu multijoueur sur Unity, avec synchronisation des
-                  données, affichage du temps de jeux, résultats en fin de
-                  partie
-                </p>
-              </div>
-            </div>
-          </div>
+            <!-- Study -->
+            <div class="cards" id="study" style="display: none">
+                <div class="card aH" onclick="document.getElementById('id06').style.display='block'">
+                    <div class="forBlur">
+                        <h2>07a-H</h2>
+                        <div class="showOnHover">
+                            <h4>C# / Unity / SQL / AWS</h4>
+                            <p>
+                                Créer un jeu multijoueur sur Unity, avec synchronisation des données, affichage du temps de jeux, résultats en fin de partie
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-          <div
-            class="card robot"
-            onclick="document.getElementById('id07').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>Robot's</h2>
-              <div class="showOnHover">
-                <h4>HTML / CSS / JS / SQL / GOLang</h4>
-                <h3>Groupe de 5</h3>
-                <p>
-                  Créer un forum avec création de post, filtre, création de
-                  compte, barre de recherche, espace admin etc...
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card groupie"
-            onclick="document.getElementById('id08').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>Groupie trackers</h2>
-              <div class="showOnHover">
-                <h4>HTML / CSS / GOLang</h4>
-                <h3>Groupe de 2</h3>
-                <p>
-                  Créer un site web lié à une base de données et en afficher les
-                  valeurs, plus localisation / affichage google maps. etc...
-                </p>
-              </div>
-            </div>
-          </div>
+                <div class="card robot" onclick="document.getElementById('id07').style.display='block'">
+                    <div class="forBlur">
+                        <h2>Robot's</h2>
+                        <div class="showOnHover">
+                            <h4>HTML / CSS / JS / SQL / GOLang</h4>
+                            <h3>Groupe de 5</h3>
+                            <p>
+                                Créer un forum avec création de post, filtre, création de compte, barre de recherche, espace admin etc...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card groupie" onclick="document.getElementById('id08').style.display='block'">
+                    <div class="forBlur">
+                        <h2>Groupie trackers</h2>
+                        <div class="showOnHover">
+                            <h4>HTML / CSS / GOLang</h4>
+                            <h3>Groupe de 2</h3>
+                            <p>
+                                Créer un site web lié à une base de données et en afficher les valeurs, plus localisation / affichage google maps. etc...
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-          <div
-            class="card ascii"
-            onclick="document.getElementById('id09').style.display='block'"
-          >
-            <div class="forBlur">
-              <h2>ASCII-Art web</h2>
-              <div class="showOnHover">
-                <h4>HTML / CSS / GOLang</h4>
-                <h3>Groupe de 2</h3>
-                <p>
-                  Créer un site web qui transforme votre texte en un format
-                  chosis, vous pouvez le télécharger et l'envoyer à vos amis.
-                </p>
-              </div>
+                <div class="card ascii" onclick="document.getElementById('id09').style.display='block'">
+                    <div class="forBlur">
+                        <h2>ASCII-Art web</h2>
+                        <div class="showOnHover">
+                            <h4>HTML / CSS / GOLang</h4>
+                            <h3>Groupe de 2</h3>
+                            <p>
+                                Créer un site web qui transforme votre texte en un format chosis, vous pouvez le télécharger et l'envoyer à vos amis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <div class="modalContact" id="id01" style="display: none">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id01').style.display='none'"
-          >&times;</span
-        >
-        <h2>Contact</h2>
-        <h4>
-          En seconde je suis passionnée par les petits modules d’informatiques
-          qui m’ont fait découvrir un univers, ou mon imagination et ma
-          créativité ne pouvaient s’essouffler j’ai donc poursuivi dans ce
-          chemin-là par un BAC STI2D SIN, puis par une école d’informatique en
-          bac+5.<br /><br />
-          Depuis le lycée j’effectue un job étudiant, premièrement en tant
-          qu’équipier polyvalent chez McDonald's pendant 5 mois, puis
-          aujourd’hui tous les rôles étudiants ( caissier, traiteur, boulanger,
-          fruits et légumes) chez Casino jusqu’à maintenant.<br /><br />
-          Ces dernières années j’ai pu créer des sites web lient à des base de
-          données, créée des jeux en python / C++ / C# , en Java faire des
-          applications console, des liens avec des bases de données, du SQL, PHP
-          etc.<br /><br />
-          En recherche de stage / alternance pour les vacances de juillet/aout
-          de 6 semaines puis d'une alternance pour ma 3ème année de cursus chez
-          Ynov Campus Lyon dans le domaine du développement web / mobile, C.# /
-          Unity / .NET / Java, etc.
-        </h4>
-        <br />
-        <h3>
-          <span>E-mail</span> :
-          <a href="mailto:gelin752002@gmail.com">gelin752002@gmail.com</a>
-        </h3>
-        <br />
-        <h3>
-          <span>LinkedIn</span> :
-          <a href="https://www.linkedin.com/in/gelin-alexis/"
-            >https://www.linkedin.com/in/gelin-alexis/</a
-          >
-        </h3>
-        <br />
-        <h3>
-          <span>Téléphone</span> : <a href="tel:0781425765">07 81 42 57 65</a>
-        </h3>
-        <br />
-        <h3><span>Localisation</span> : Lyon 69007, Veauche 42340</h3>
-      </div>
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id01').style.display='none'">&times;</span>
+            <h2>Contact</h2>
+            <h4>
+                En seconde je suis passionnée par les petits modules d’informatiques qui m’ont fait découvrir un univers, ou mon imagination et ma créativité ne pouvaient s’essouffler j’ai donc poursuivi dans ce chemin-là par un BAC STI2D SIN, puis par une école d’informatique
+                en bac+5.
+                <br /><br /> Depuis le lycée j’effectue un job étudiant, premièrement en tant qu’équipier polyvalent chez McDonald's pendant 5 mois, puis aujourd’hui tous les rôles étudiants ( caissier, traiteur, boulanger, fruits et légumes) chez Casino
+                jusqu’à maintenant.<br /><br /> Ces dernières années j’ai pu créer des sites web lient à des base de données, créée des jeux en python / C++ / C# , en Java faire des applications console, des liens avec des bases de données, du SQL, PHP
+                etc.
+                <br /><br /> En recherche de stage / alternance pour les vacances de juillet/aout de 6 semaines puis d'une alternance pour ma 3ème année de cursus chez Ynov Campus Lyon dans le domaine du développement web / mobile, C.# / Unity / .NET
+                / Java, etc.
+            </h4>
+            <br />
+            <h3>
+                <span>E-mail</span> :
+                <a href="mailto:gelin752002@gmail.com">gelin752002@gmail.com</a>
+            </h3>
+            <br />
+            <h3>
+                <span>LinkedIn</span> :
+                <a href="https://www.linkedin.com/in/gelin-alexis/">https://www.linkedin.com/in/gelin-alexis/</a>
+            </h3>
+            <br />
+            <h3>
+                <span>Téléphone</span> : <a href="tel:0781425765">07 81 42 57 65</a>
+            </h3>
+            <br />
+            <h3><span>Localisation</span> : Lyon 69007</h3>
+        </div>
     </div>
 
     <div id="id02" class="modalStarship">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id02').style.display='none'"
-          >&times;</span
-        >
-        <h2>Starship Galaxy</h2>
-        <br />
-        <h3>En cours</h3>
-        <br />
-        <div>
-          <img src="/img/StarShip/Boss.png" alt="boss" />
-          <br />
-          <img src="/img/StarShip/mecanique.png" alt="mecanique de jeu Beta" />
-          <br />
-          <img src="/img/StarShip/ennemis.png" alt="ennemis" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id02').style.display='none'">&times;</span>
+            <h2>Starship Galaxy</h2>
+            <br />
+            <h3>En cours</h3>
+            <br />
+            <div>
+                <img src="/img/StarShip/Boss.png" alt="boss" />
+                <br />
+                <img src="/img/StarShip/mecanique.png" alt="mecanique de jeu Beta" />
+                <br />
+                <img src="/img/StarShip/ennemis.png" alt="ennemis" />
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id03" class="modalBsi">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id03').style.display='none'"
-          >&times;</span
-        >
-        <h2>BSI Ynov</h2>
-        <br />
-        <div>
-          <img src="/img/bsi/plan.png" alt="boss" />
-          <br />
-          <img src="/img/bsi/role.png" alt="mecanique de jeu Beta" />
-          <br />
-          <img src="/img/bsi/schema firewall.png" alt="ennemis" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id03').style.display='none'">&times;</span>
+            <h2>BSI Ynov</h2>
+            <br />
+            <div>
+                <img src="/img/bsi/plan.png" alt="boss" />
+                <br />
+                <img src="/img/bsi/role.png" alt="mecanique de jeu Beta" />
+                <br />
+                <img src="/img/bsi/schema firewall.png" alt="ennemis" />
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id04" class="modalCasino">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id04').style.display='none'"
-          >&times;</span
-        >
-        <h2>Casino Supermarchés Saint-Galmier</h2>
-        <br />
-        <div>
-          <img src="/img/casino/casino-sup.png" alt="boss" />
-          <br />
-          <img src="/img/casino/fl.png" alt="mecanique de jeu Beta" />
-          <br />
-          <img src="/img/casino/traiteur.png" alt="ennemis" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id04').style.display='none'">&times;</span>
+            <h2>Casino Supermarchés Saint-Galmier</h2>
+            <br />
+            <div>
+                <img src="/img/casino/casino-sup.png" alt="boss" />
+                <br />
+                <img src="/img/casino/fl.png" alt="mecanique de jeu Beta" />
+                <br />
+                <img src="/img/casino/traiteur.png" alt="ennemis" />
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id05" class="modalMcdo">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id05').style.display='none'"
-          >&times;</span
-        >
-        <h2>McDonald's La Fouillouse</h2>
-        <br />
-        <div>
-          <img src="/img/mcdo/devant.png" alt="boss" />
-          <br />
-          <img src="/img/mcdo/airedejeux.png" alt="mecanique de jeu Beta" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id05').style.display='none'">&times;</span>
+            <h2>McDonald's La Fouillouse</h2>
+            <br />
+            <div>
+                <img src="/img/mcdo/devant.png" alt="boss" />
+                <br />
+                <img src="/img/mcdo/airedejeux.png" alt="mecanique de jeu Beta" />
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id06" class="modalAh">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id06').style.display='none'"
-          >&times;</span
-        >
-        <h2>07aH</h2>
-        <br />
-        <div>
-          <h3>En cours de developpement</h3>
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id06').style.display='none'">&times;</span>
+            <h2>07aH</h2>
+            <br />
+            <div>
+                <h3>En cours de developpement</h3>
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id07" class="modalRobot">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id07').style.display='none'"
-          >&times;</span
-        >
-        <h2>Robot's</h2>
-        <br />
-        <h3>
-          Link :
-          <a href="https://forum-robots.herokuapp.com/"
-            >https://forum-robots.herokuapp.com/</a
-          >
-        </h3>
-        <br />
-        <div>
-          <img src="/img/robots/creerpost.png" alt="creation de post" />
-          <br />
-          <img src="/img/robots/post.png" alt="affichage post" />
-          <br />
-          <img src="/img/robots/staff.png" alt="nous contacter" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id07').style.display='none'">&times;</span>
+            <h2>Robot's</h2>
+            <br />
+            <h3>
+                Link :
+                <a href="https://forum-robots.herokuapp.com/">https://forum-robots.herokuapp.com/</a>
+            </h3>
+            <br />
+            <div>
+                <img src="/img/robots/creerpost.png" alt="creation de post" />
+                <br />
+                <img src="/img/robots/post.png" alt="affichage post" />
+                <br />
+                <img src="/img/robots/staff.png" alt="nous contacter" />
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id08" class="modalGroupie">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id08').style.display='none'"
-          >&times;</span
-        >
-        <h2>Groupie Trackers</h2>
-        <br />
-        <h3>
-          Link :
-          <a href="https://groupie-tracker-groupieyoal.herokuapp.com"
-            >https://groupie-tracker-groupieyoal.herokuapp.com</a
-          >
-        </h3>
-        <br />
-        <div>
-          <img src="/img/groupie/artist.png" alt="un artist" />
-          <br />
-          <img src="/img/groupie/map.png" alt="geolocalisation" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id08').style.display='none'">&times;</span>
+            <h2>Groupie Trackers</h2>
+            <br />
+            <h3>
+                Link :
+                <a href="https://groupie-tracker-groupieyoal.herokuapp.com">https://groupie-tracker-groupieyoal.herokuapp.com</a>
+            </h3>
+            <br />
+            <div>
+                <img src="/img/groupie/artist.png" alt="un artist" />
+                <br />
+                <img src="/img/groupie/map.png" alt="geolocalisation" />
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="id09" class="modalAscii">
-      <div class="modal-content">
-        <span
-          class="close"
-          onclick="document.getElementById('id09').style.display='none'"
-          >&times;</span
-        >
-        <h2>ASCII-art Web</h2>
-        <br />
-        <div>
-          <img src="/img/ascii/recherche.png" alt="recherche" />
-          <br />
-          <img src="/img/ascii/un.png" alt="un" />
-          <br />
-          <img src="/img/ascii/stage.png" alt="stage" />
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('id09').style.display='none'">&times;</span>
+            <h2>ASCII-art Web</h2>
+            <br />
+            <div>
+                <img src="/img/ascii/recherche.png" alt="recherche" />
+                <br />
+                <img src="/img/ascii/un.png" alt="un" />
+                <br />
+                <img src="/img/ascii/stage.png" alt="stage" />
+            </div>
         </div>
-      </div>
     </div>
 
     <footer>
-      <div class="inner-footer">
-        <h4>
-          ✨&nbsp;&nbsp; Merci &nbsp;&nbsp;✨&nbsp;d'avoir pris le temps, d'être
-          venue voir mes projets,<br />
-          n'hésitez pas à aller dans l'onglet contact si vous voulez collaborer
-          avec moi ❤️.
-        </h4>
-      </div>
+        <div class="inner-footer">
+            <h4>
+                ✨&nbsp;&nbsp; Merci &nbsp;&nbsp;✨&nbsp;d'avoir pris le temps, d'être venue voir mes projets,<br /> n'hésitez pas à aller dans l'onglet contact si vous souhaitez collaborer avec moi ❤️.
+            </h4>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
